@@ -1,0 +1,171 @@
+.hidden{
+    display: none;
+}
+
+/*======================= icons =======================*/
+.icons{
+    display: grid;
+    position:fixed;
+    top: 200px;
+}
+
+.icon {
+    margin:5px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(206, 206, 206);
+}
+
+.icon:hover {
+    border: 2px solid rgb(0, 229, 255);
+}
+
+/*======================= fork and knife =======================*/
+.cutlery {
+    margin-top: 50px;
+    position:absolute;
+}
+
+#fork {
+    left: 350px;
+}
+
+#knife {
+    right: 350px;
+}
+
+.cutlery img{
+height: 450px;
+}
+
+.cutlery img:hover{
+    height: 470px;
+}
+
+/*======================= plate =======================*/
+.plate {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#plate {
+    height: 600px;
+}
+
+/*====================== blocks ============================*/
+body {
+  	font-family: consolas;
+    margin: 0;
+    padding: 0;
+}
+
+body a { 
+	text-decoration: none;
+}
+
+.wooden, .marble, .tablecloth {
+    padding: 0;
+    margin: 0;
+    height: 100%; 
+    width: 100%;
+    background-size: 100%;
+    background-position: center;   
+    position: absolute;
+    z-index: -2;    
+}
+
+.wooden {
+    background-image: url("images/wooden.jpg"); 
+}
+
+.marble {
+    background-image: url("images/marble.jpg");
+}
+
+.tablecloth {
+    background-image: url("images/tablecloth.jpg"); 
+}
+
+.container {
+    height: 100%;
+    display: grid; 
+    grid-template-rows: 15% 85%; 
+}
+
+.header {
+    display: grid;
+    align-items: end;  
+    text-align: center;     
+    width: 100%;
+    font-size: 30px; 
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(248, 206, 117);    
+}
+
+/*======================= search bar =======================*/
+.header input{
+    height: 23px;
+    width: 600px;
+    border: 2px solid rgb(248, 206, 117);
+    margin-right: 10px;
+}
+
+    input:hover {
+    border: 2px solid rgb(0, 229, 255);
+}
+
+.header button{
+    height: 30px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(248, 206, 117);
+    border: 2px solid rgb(248, 206, 117);
+    font-weight: bold;
+}
+
+    button:hover {
+    border: 2px solid rgb(0, 229, 255);
+}
+/*======================= END search bar =======================*/
+
+.main {
+    text-align: center;
+    overflow: auto;
+}
+
+
+.card {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card h2, h4 {
+    text-shadow: 2px 2px 2px white;
+    margin-bottom: 0;
+}
+
+.dishPhoto {
+    border: 1px solid white;
+    border-radius: 50%; 
+    height: 500px; 
+    width: 500px;
+}
+
+.dishPhoto:hover {
+    box-shadow:0 0 35px 2px white;
+}
+
+.info { 
+    height: 500px; 
+    width: 500px;
+    margin: 0 auto;    
+}

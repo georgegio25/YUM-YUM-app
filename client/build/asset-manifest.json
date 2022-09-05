@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df22a9e0.css",
+    "main.js": "/static/js/main.af5c1fc9.js",
+    "static/media/wooden.jpg": "/static/media/wooden.3a3bb7055796fc64b692.jpg",
+    "static/media/marble.jpg": "/static/media/marble.04cc28d113f69602aedc.jpg",
+    "static/media/icon_wod.jpg": "/static/media/icon_wod.488de0d961842fc0bf4e.jpg",
+    "static/media/tablecloth.jpg": "/static/media/tablecloth.00d44a47544d228a8d68.jpg",
+    "static/media/plate2.png": "/static/media/plate2.3ad5af5c4806d5125c56.png",
+    "static/media/icon_mar.jpg": "/static/media/icon_mar.73832b2b6f439a2194f0.jpg",
+    "static/media/icon_g.jpg": "/static/media/icon_g.dcfa5635d03ea1442e34.jpg",
+    "static/media/gfork.png": "/static/media/gfork.9d0d477892491bf04560.png",
+    "static/media/icon_tblc.jpg": "/static/media/icon_tblc.ab2866fc07c4ffa287da.jpg",
+    "static/media/gknife.png": "/static/media/gknife.59570c1fbf7eacc28c47.png",
+    "static/media/icon_s.jpg": "/static/media/icon_s.e70e51ef02c5121131ce.jpg",
+    "static/media/sfork.png": "/static/media/sfork.1efd6ccf9ddacb4e11cc.png",
+    "static/media/sknife.png": "/static/media/sknife.bcc3702f1d65107ad0a8.png",
+    "index.html": "/index.html",
+    "main.df22a9e0.css.map": "/static/css/main.df22a9e0.css.map",
+    "main.af5c1fc9.js.map": "/static/js/main.af5c1fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df22a9e0.css",
+    "static/js/main.af5c1fc9.js"
+  ]
+}
